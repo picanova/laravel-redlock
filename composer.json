@@ -18,9 +18,9 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0",
-    "illuminate/support": "^5.0",
-    "illuminate/console": "^5.0",
+    "php": ">=7.2.5",
+    "illuminate/support": "^6.0|^7.0|^8.0",
+    "illuminate/console": "^6.0|^7.0|^8.0",
     "predis/predis": "^1.1"
   },
   "require-dev": {
@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ThatsUs\\RedLock\\": "src/"
+      "ThatsUs\\RedLock\\": "./src"
     }
   },
   "autoload-dev": {

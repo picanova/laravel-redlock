@@ -3,7 +3,6 @@
 namespace ThatsUs\RedLock;
 
 use Predis\Client as Redis;
-use Illuminate\Support\Facades\App;
 
 class RedLock
 {
