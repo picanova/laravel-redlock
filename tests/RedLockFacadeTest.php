@@ -1,10 +1,9 @@
 <?php
 
-namespace ThatsUs\RedLock\Facades;
+namespace Picanova\RedLock\Facades;
 
 use Mockery;
 use TestCase;
-use Predis\Client as Redis;
 use Illuminate\Support\Facades\App;
 
 class RedLockFacadeTest extends TestCase
@@ -20,6 +19,6 @@ class RedLockFacadeTest extends TestCase
 
     public function testRoot()
     {
-        $this->assertTrue(RedLock::getFacadeRoot() instanceof \ThatsUs\RedLock\RedLock);
+        $this->assertTrue(RedLock::getFacadeRoot() instanceof \Picanova\RedLock\RedLock);
     }
 }

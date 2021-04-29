@@ -1,6 +1,6 @@
 <?php
 
-namespace ThatsUs\RedLock\Facades;
+namespace Picanova\RedLock\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ThatsUs\RedLock;
+namespace Picanova\RedLock;
 
 use Predis\Client as Redis;
 

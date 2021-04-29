@@ -1,6 +1,6 @@
 <?php
 
-namespace ThatsUs\RedLock\Exceptions;
+namespace Picanova\RedLock\Exceptions;
 
 class QueueWithoutOverlapRefreshException extends \Exception
 {
